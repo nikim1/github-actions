@@ -37,3 +37,7 @@ jobs:
 
         name: Build      
         run: chmod +x ci/build-app.sh && ci/build-app.sh
+
+        name: Test
+        run: chmod +x ci/performance-test.sh && ci/performance-test.sh
+
